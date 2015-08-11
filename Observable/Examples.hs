@@ -4,10 +4,13 @@ module Observable.Examples (
   , linearFit
   , sinusoidal
   , sinusoidalModel
+
+  , simulate
+  , ast
+  , condition
   ) where
 
-import Observable.Core
-import Observable.Distribution
+import Observable
 
 -- | A simple beta-binomial model for testing.
 betaBinomial :: Int -> Double -> Double -> Observable Int
