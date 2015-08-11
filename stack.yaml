@@ -1,0 +1,10 @@
+flags: {}
+packages:
+  - '.'
+  - ../observable
+  - ../mcmc-types
+  - ../measurable
+  - ../mwc-probability
+extra-deps: []
+resolver: lts-2.21
+
